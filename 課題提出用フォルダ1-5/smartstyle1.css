@@ -1,0 +1,128 @@
+@media screen and (max-width: 479px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .header {
+    width: 200px;
+    height: 300px;
+    background-color: #141f40;
+    position: relative;
+  }
+  
+  .header-contents {
+    float: none;
+    clear: both;
+    width: 60px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom :0;
+    margin:  auto;
+  }
+  
+  .htop{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    position: static;
+    background-color: #a9004b;
+    margin-top: 10px;
+  }
+  
+  .hcenter{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    position: static;
+    background-color: #a9004b;
+  }
+  
+  .hlow {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    position: static;
+    background-color: #a9004b;
+    margin-bottom: 10px;
+  }
+  
+  .main {
+    width: 200x;
+    height: auto;
+  }
+  
+  .left {
+    width: 200px;
+    height: 250px;
+    clear: both;
+    background-color: #80bfa8;
+  }
+  
+  .right {
+    float: none;
+    clear: both;
+    width: 200px;
+    height: 250px;
+    background-color: #8c2727;
+    position: relative;
+  }
+  
+  .right-contents{
+    height: 170px;
+    width: 140px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom :0;
+    margin:  auto;
+  }
+  
+  .top {
+    box-sizing: border-box;
+    width: 140px;
+    height: 50px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    background-color: #ff863f;
+  }
+  
+  .center {
+    box-sizing: border-box;
+    width: 140px;
+    height: 50px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    background-color: #ff863f;
+  }
+  
+  .low {
+    box-sizing: border-box;
+    width: 140px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: #ff863f;
+  }
+  
+  .footer{
+    width: 200px;
+    height: 100px;
+    background-color: #d98d30;
+  }
+
+}
